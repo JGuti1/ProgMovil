@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TareaMovil</string>
+    <string name="numeroA">Número A</string>
+    <string name="numeroB">Número B</string>
+    <string name="resultado">Resultado</string>
+    <string name="btnmayorAB">Mayor de A y B</string>
+    <string name="btnmenorAB">Menor de A y B</string>
+    <string name="raizA">Raiz de A</string>
+    <string name="raizB">Raiz de B</string>
+    <string name="Aelevado2">A elevado a 2</string>
+    <string name="Aelevado5">A elevado a 5 </string>
+</resources>

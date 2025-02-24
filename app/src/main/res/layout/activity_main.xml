@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNumA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeroA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CampoNumA"
+        android:layout_width="411dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumA" />
+
+    <TextView
+        android:id="@+id/txtNumB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeroB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CampoNumA" />
+
+    <EditText
+        android:id="@+id/CampoNumB"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumB" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CampoNumB" />
+
+    <EditText
+        android:id="@+id/CampoResultado"
+        android:layout_width="407dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+    <Button
+        android:id="@+id/btnMayorAB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnmayorAB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CampoResultado" />
+
+    <Button
+        android:id="@+id/btnMenorAB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnmenorAB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMayorAB" />
+
+    <Button
+        android:id="@+id/raizA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/raizA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMenorAB" />
+
+    <Button
+        android:id="@+id/raizB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/raizB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raizA" />
+
+    <Button
+        android:id="@+id/btnAelevado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Aelevado2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raizB" />
+
+    <Button
+        android:id="@+id/Aelevado5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Aelevado5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAelevado2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
